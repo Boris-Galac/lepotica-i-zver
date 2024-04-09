@@ -1,5 +1,5 @@
 .header {
-  position: absolute;
+  position: fixed;
   inset: auto 0;
   top: 0;
   z-index: 3;
@@ -8,6 +8,7 @@
   align-items: center;
   padding-block: 1rem;
   padding-inline: 0.5rem;
+  backdrop-filter: blur(10px);
 }
 .header-col {
   display: flex;
@@ -41,6 +42,8 @@
 .nav {
   position: fixed;
   inset: 0;
+  width: 100vw;
+  height: 100vh;
   background-color: rgba(0, 0, 0, 0.759);
   display: grid;
   place-content: center;
