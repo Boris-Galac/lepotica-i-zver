@@ -119,6 +119,10 @@
 }
 .nav__link {
   font-size: 1.25rem;
+  transition: 0.25s;
+}
+.nav__link:hover {
+  opacity: 0.7;
 }
 
 @media (min-width: 1200px) {
