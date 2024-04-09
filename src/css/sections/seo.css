@@ -1,0 +1,35 @@
+.seo {
+  isolation: isolate;
+  padding-block: 6rem;
+}
+.seo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/src/assets/images/seo-overlay-img.jpg") no-repeat center
+    center/cover;
+  background-attachment: fixed;
+  z-index: -1;
+}
+.seo__wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  border-radius: 6px;
+  overflow: hidden;
+}
+.seo-block {
+  padding: 1rem;
+  padding-block: 2rem;
+}
+.seo-heading {
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+}
+.seo-block__inner-wrapper {
+}
+.seo-subheading {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}

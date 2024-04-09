@@ -1,0 +1,27 @@
+.registration {
+  padding-block: 6rem;
+  isolation: isolate;
+}
+.registration::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/src/assets/images/registration-overlay-img.jpg") no-repeat
+    center center/cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: -1;
+}
+.registration__row {
+  padding-inline: 2rem;
+  text-align: center;
+  display: grid;
+  gap: 2rem;
+}
+@media (min-width: 1024px) {
+  .registration {
+    padding-block: 12rem;
+    isolation: isolate;
+  }
+}

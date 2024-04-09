@@ -1,0 +1,24 @@
+/* abstracts */
+@import "abstracts/defaults.css";
+@import "abstracts/colors.css";
+@import "abstracts/typography.css";
+@import "abstracts/sizes.css";
+/* sections */
+@import "sections/hero.css";
+@import "sections/o-nama.css";
+@import "sections/lepotica-i-zver.css";
+@import "sections/features.css";
+@import "sections/blog.css";
+@import "sections/seo.css";
+@import "sections/social-proof.css";
+@import "sections/registration.css";
+@import "sections/faq.css";
+/* components */
+@import "components/header.css";
+@import "components/buttons.css";
+@import "components/marquee.css";
+@import "components/swiper.css";
+@import "components/blog-card.css";
+@import "components/footer.css";
+/* utilities */
+@import "utilities/globals.css";

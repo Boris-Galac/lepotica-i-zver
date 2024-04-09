@@ -1,0 +1,56 @@
+.features {
+  background: linear-gradient(140deg, hsl(0, 0%, 0%), rgb(40, 40, 42));
+  isolation: isolate;
+  padding-block: 6rem;
+}
+.features::before {
+  content: "";
+  position: absolute;
+  background: url("/src/assets/images/logo-overlay-img.svg") no-repeat center
+    center/cover;
+  inset: 0;
+  z-index: -1;
+}
+.features__wrapper {
+  display: grid;
+  gap: 2rem;
+}
+.features__row {
+  padding: 1.5rem;
+  background-color: hsla(0, 0%, 31%, 0.2);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.features__row img {
+  margin-inline: auto;
+}
+.features__second-row {
+  display: grid;
+  place-items: center;
+  gap: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.121);
+  padding: 2rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .features {
+    padding-block: 10rem;
+  }
+  .features__row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  .features__row:nth-child(odd) img {
+    order: 1;
+  }
+  .features__second-wrapper {
+    display: flex;
+  }
+  .features__second-wrapper > * {
+    flex: 1;
+  }
+}

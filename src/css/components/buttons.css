@@ -1,0 +1,76 @@
+.cta-btn {
+  outline: 2px solid var(--white);
+  background-color: var(--black);
+  padding-inline: 3rem;
+  padding-block: 0.8rem;
+  color: var(--white);
+  font-weight: 500;
+  border-radius: 100vmax;
+  font-size: 1rem;
+  transition: 0.25s;
+}
+.cta-btn:hover {
+  outline: 2px solid var(--black);
+  background-color: var(--white);
+  font-weight: 600;
+  color: var(--black);
+  box-shadow: 0 0 16px 5px hsl(60, 100%, 54%);
+}
+.scroll-down-btn {
+  position: absolute;
+  bottom: 25vh;
+  animation: scroll-down 1s alternate ease-in-out infinite;
+}
+@keyframes scroll-down {
+  to {
+    transform: translateY(1rem);
+  }
+}
+.blog__read-more-btn {
+  padding-inline: 1.5rem;
+  padding-block: 1rem;
+  font: inherit;
+  outline: 1px solid var(--dark-font);
+  font-weight: 500;
+  margin-inline: auto;
+  margin-block: 2rem;
+  margin-top: 3rem;
+  background-color: var(--white);
+  transition: 0.25s;
+}
+.blog__read-more-btn:hover {
+  background: hsl(45, 12%, 94%);
+}
+.registration-section-btn {
+  color: var(--white);
+  background-color: var(--black);
+  padding-block: 1rem;
+  padding-inline: 5rem;
+  font: inherit;
+  border-radius: 100vmax;
+  outline: 2px solid var(--white);
+  width: max-content;
+  margin-inline: auto;
+  transition: 0.25s;
+}
+.registration-section-btn:hover {
+  background-color: var(--white);
+  outline-color: var(--black);
+  outline-width: 3px;
+  color: var(--black);
+  font-weight: 600;
+}
+.search-btn {
+  margin-left: auto;
+  margin-right: 15px;
+}
+.login-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  outline: 2px solid var(--white);
+  padding-inline: 1.6rem;
+  padding-block: 0.5rem;
+  border-radius: 100vmax;
+  margin-block: 1.5rem;
+}

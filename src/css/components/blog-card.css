@@ -1,0 +1,35 @@
+.blog__card {
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.blog__header-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding: 0.5rem;
+}
+.blog__header-wrapper img {
+  width: 100%;
+}
+.blog__body-wrapper {
+  padding: 1rem;
+}
+.blog__date {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.blog__body-text {
+  -webkit-line-clamp: 4;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.blog__heading {
+  margin-bottom: 0.5rem;
+}
+.blog__card a {
+  margin-top: 0.5rem;
+  color: var(--link);
+}

@@ -1,0 +1,893 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lepotica & Zver</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet." />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="lorem, ipsum, dolor, sit, amet" />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <!-- <link rel="stylesheet" href="dist/style.css" /> -->
+    <!-- Swiper JS -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    ></script>
+    <script defer src="/src/js/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img src="/src/assets/images/Logo.svg" alt="logo of lepotica i zver" />
+      </a>
+      <button class="search-btn">
+        <img src="/src/assets/icons/search-icon.svg" alt="search icon" />
+      </button>
+      <button
+        class="ham"
+        aria-label="hamburger button"
+        tabindex="0"
+        aria-controls="nav"
+        data-active="false"
+      >
+        <div class="ham-line"></div>
+        <div class="ham-line"></div>
+        <div class="ham-line"></div>
+      </button>
+      <nav class="nav" id="nav" aria-expanded="false">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#">O nama</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Lepotica i zver</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Zašto smo drugačiji</a>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Iskustva korisnika</a>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="#">F.A.Q.</a></li>
+          <div class="login__wrapper">
+            <li class="nav__item">
+              <a class="nav__link login-btn" href="#">
+                <img src="src/assets/icons/login-icon.svg" alt="login icon" />
+                Prijavi se
+              </a>
+            </li>
+          </div>
+        </ul>
+        <div class="header-col">
+          <a href="#" role="button" class="header-btn-app"
+            >Skini aplikaciju
+            <img src="/src/assets/icons/apps-icon.svg" alt="apps icon" />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__headline-wrapper">
+            <div class="hero__headline-inner-wrapper">
+              <h1 class="headline">lepotica i zver</h1>
+              <p class="subheadline">Ekskluzivni sajt za upoznavanje</p>
+              <p class="subheadline-second">
+                Da li ste spremni da od svog života napravite bajku?
+              </p>
+              <p class="subheadline-third">Ako jeste, registrujte se odmah!</p>
+            </div>
+            <button class="cta-btn">Registruj se</button>
+            <a href="#o-nama" class="scroll-down-btn"
+              ><img src="/src/assets/icons/scroll-icon.svg" alt="scroll icon"
+            /></a>
+          </div>
+        </div>
+        <figure class="socials">
+          <img src="src/assets/icons/fb-icon.svg" alt="facebook icon" />
+          <img src="src/assets/icons/instagram-icon.svg" alt="instagram icon" />
+          <img src="src/assets/icons/linkedin-icon.svg" alt="linkedin icon" />
+        </figure>
+        <div class="hero__logo-slider">
+          <h2 class="slider-heading">Bili smo u medijima</h2>
+          <figure class="logo-slider">
+            <div class="logo-slider__row">
+              <img
+                src="/src/assets/images/logos/logo (1).png"
+                class="logo-slider--first-logo"
+                alt="forbes"
+              />
+              <img src="/src/assets/images/logos/logo (2).png" alt="abc" />
+              <img src="/src/assets/images/logos/logo (3).png" alt="wsj" />
+              <img src="/src/assets/images/logos/logo (4).png" alt="cbs" />
+            </div>
+            <div class="logo-slider__row">
+              <img
+                src="/src/assets/images/logos/logo (1).png"
+                class="logo-slider--first-logo"
+                alt="forbes"
+              />
+              <img src="/src/assets/images/logos/logo (2).png" alt="abc" />
+              <img src="/src/assets/images/logos/logo (3).png" alt="wsj" />
+              <img src="/src/assets/images/logos/logo (4).png" alt="cbs" />
+            </div>
+            <div class="logo-slider__row">
+              <img
+                src="/src/assets/images/logos/logo (1).png"
+                class="logo-slider--first-logo"
+                alt="forbes"
+              />
+              <img src="/src/assets/images/logos/logo (2).png" alt="abc" />
+              <img src="/src/assets/images/logos/logo (3).png" alt="wsj" />
+              <img src="/src/assets/images/logos/logo (4).png" alt="cbs" />
+            </div>
+            <div class="logo-slider__row">
+              <img
+                src="/src/assets/images/logos/logo (1).png"
+                class="logo-slider--first-logo"
+                alt="forbes"
+              />
+              <img src="/src/assets/images/logos/logo (2).png" alt="abc" />
+              <img src="/src/assets/images/logos/logo (3).png" alt="wsj" />
+              <img src="/src/assets/images/logos/logo (4).png" alt="cbs" />
+            </div>
+          </figure>
+        </div>
+      </section>
+      <!-- O NAMA SECTION -->
+      <section class="o-nama" id="o-nama">
+        <div class="container">
+          <div class="o-nama__wrapper">
+            <h2 class="h2-heading h2-heading--center">o nama</h2>
+            <div class="o-nama__inner-wrapper">
+              <div class="o-nama__text-wrapper">
+                <p class="o-nama__first-paragraph">
+                  Dobrodošli na Lepotica i Zver sajt za upoznavanje, mesto gde
+                  se upoznaju atraktivni ljudi, svesni sebe i svojih mogućnosti,
+                  koji su uspešni u onome čime se bave ili rade aktivno na tome
+                  da postanu najbolja verzija sebe.
+                </p>
+                <div class="o-nama_row">
+                  <p>
+                    Namenjen je pojedincima sa ozbiljnim ciljem pronalaženja
+                    svog životnog partnera, jer znaju koliki je danas izazov
+                    pronaći nekoga ko će Vas ceniti, poštovati i voleti zbog
+                    onoga što Vi jeste, a istovremeno neko ko će Vam biti
+                    intelektualni izazov i Vaša motivacija.
+                  </p>
+                  <img
+                    src="/src/assets/images/o-nama-couple-img.png"
+                    alt="image of couple"
+                  />
+                </div>
+                <div class="o-nama_row">
+                  <p class="mb-2">
+                    Naši članovi su preduzetnici, advokati, doktori,
+                    investitori, sportisti, umetnici i ljudi koji se bave raznim
+                    drugim interesantnim poslovima u životu a koji su
+                    zainteresovani da ostvare ozbiljan, partnerski odnos.
+                  </p>
+                  <img
+                    src="/src/assets/images/o-nama-people-img.png"
+                    alt="image of couple"
+                  />
+                </div>
+              </div>
+              <div class="o-nama__registration-box">
+                <p class="mb-1">
+                  Nemojte oklevati i čekati – registrujte se besplatno jer Vas
+                  možda Vaša srodna duša čeka na Lepotica i Zver sajtu!
+                </p>
+                <button class="o-nama__registration-btn">registruj se</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- LEPOTICA & ZVER SECTION-->
+      <section class="lepotica-i-zver">
+        <div class="lepotica-i-zver__wrapper">
+          <article class="zver">
+            <h3 class="h3-heading">zver</h3>
+            <div class="zver__row">
+              <img src="/src/assets/images/zver-img.png" alt="image of male" />
+              <div>
+                <p>
+                  On je muškarac koji je uspešan i koji radi na tome. On tačno
+                  zna šta želi, koliko vredi i šta može da ponudi svojoj
+                  Lepotici. On traži nju, svoju Lepoticu koja će uneti lepotu,
+                  radost i uzbuđenje u njegov život. Inteligentnu ženu koja drži
+                  do sebe, koja će ga ceniti i voleti na način na koji on to
+                  zaslužuje.
+                </p>
+                <br />
+                <p>
+                  On ne traži bilo koga, već želi posebnu i izuzetnu partnerku,
+                  jer je svestan da je to danas retkost. On ima svoje standarde
+                  i kriterijume i nije spreman da ih spušta. On zna da je život
+                  lep onoliko koliko su lepi ljudi koji ga okružuju i želi da
+                  pronađe nekog ko će njegovom životu, doneti vrednost i pomoći
+                  da živi život punim plućima.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="lepotica">
+            <h3 class="h3-heading">lepotica</h3>
+            <div class="lepotica__row">
+              <img src="/src/assets/images/lepotica-img.png" alt="lepotica" />
+              <div>
+                <p>
+                  Ona je žena koja je ambiciozna, odlučna, svesna sebe, svojih
+                  stavova i svojih vrednosti. Ne pristaje na manje i ne spušta
+                  svoje kriterijume. Ona traži njega, svoju Zverku, kvalitetnog
+                  muškarca sa stavom koji zna kako se ceni i poštuje žena i koji
+                  joj može otvoriti vrata za nove mogućnosti u životu.
+                </p>
+                <br />
+                <p>
+                  Ona je žena koja ima samopouzdanje i koja zna da sa pravim
+                  partnerom, može ostvariti život o kojem je uvek maštala i
+                  sanjala i koji će joj biti podrška u svakom smislu.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- FEATURES SECTION -->
+      <section class="features">
+        <div class="container">
+          <h2 class="h2-heading">Zašto smo drugačiji sajt od drugih</h2>
+          <div class="features__wrapper">
+            <article class="features__row">
+              <img
+                src="/src/assets/icons/features-icon-1.svg"
+                alt="feature icon"
+              />
+              <p>
+                Naš sajt je siguran jer je opremljen najvišim standardima
+                sigurnosti kako bi Vaše iskustvo na ovom sajtu bilo pozitivno.
+                Vaša bezbednost je naš prioritet.
+              </p>
+            </article>
+            <article class="features__row">
+              <img
+                src="/src/assets/icons/features-icon-2.svg"
+                alt="feature icon"
+              />
+              <p>
+                Naši korisnici su iz raznih država, sa raznim zanimanjima i
+                hobijima i tako Vam nudimo raznolikost u izboru partnera. Većina
+                naših korisnika traži ozbiljnu vezu ali postoje i ljudi koji
+                žele da ostvare neformalnu vezu. Na našem sajtu, može se pronaći
+                nešto za svakoga.
+              </p>
+            </article>
+            <article class="features__row">
+              <img
+                src="/src/assets/icons/features-icon-3.svg"
+                alt="feature icon"
+              />
+              <p>
+                Naš blog ima preko 1000 tekstova na razne teme koje su vezane za
+                upoznavanje preko interneta, muško ženske odnose, rad na sebi i
+                generalno, razne teme za bolji i kvalitetniji život.
+              </p>
+            </article>
+            <article class="features__row">
+              <img
+                src="/src/assets/icons/features-icon-5.svg"
+                alt="feature icon"
+              />
+              <p>
+                Na našem sajtu su pravi ljudi sa verifikovanim profilima. Svaki
+                profil se ručno proverava i odobrava. Imamo nultu toleranciju
+                prema osobama koje žele da Vam oduzimaju vreme, praveći lažne
+                profile.
+              </p>
+            </article>
+            <article class="features__row">
+              <img
+                src="/src/assets/icons/features-icon-6.svg"
+                alt="feature icon"
+              />
+              <p>
+                Korisnički servis kojem je fokus na kvalitetu usluge koju pruža
+                svojim članovima jer mi znamo šta je potrebno da bi naši članovi
+                bili zadovoljni.
+              </p>
+            </article>
+            <div class="features__second-wrapper">
+              <article class="features__second-row">
+                <img
+                  src="/src/assets/icons/features-icon-7.svg"
+                  alt="image feature"
+                />
+                <p>Mi cenimo diskreciju i znamo koliko je to Vama bitno.</p>
+              </article>
+              <article class="features__second-row">
+                <img
+                  src="/src/assets/icons/features-icon-8.svg"
+                  alt="image feature"
+                />
+                <p>100% besplatan sajt za žene.</p>
+              </article>
+              <article class="features__second-row">
+                <img
+                  src="/src/assets/icons/features-icon-9.svg"
+                  alt="image feature"
+                />
+                <p>Naš sajt je namenjen samo punoletnim osobama (18+).</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BLOG SECTION -->
+      <section class="blog">
+        <div class="container">
+          <h2 class="h2-heading">blog</h2>
+          <div class="blog__wrapper">
+            <article class="blog__card">
+              <figure class="blog__header-wrapper">
+                <img
+                  src="/src/assets/images/blog-img-1.png"
+                  alt="couple of man and woman"
+                />
+              </figure>
+              <div class="blog__body-wrapper">
+                <div class="blog__date">
+                  <img src="/src/assets/icons/time-icon.svg" alt="" />
+                  <span>23.06.2024.</span>
+                </div>
+                <div class="blog__body-text">
+                  <h3 class="blog__heading">Heading</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi animi nostrum ut corrupti praesentium dicta veritatis
+                    ab quod maiores, repellendus rerum unde, vel perspiciatis
+                    harum.
+                  </p>
+                </div>
+                <a href="#">Read more...</a>
+              </div>
+            </article>
+            <article class="blog__card">
+              <figure class="blog__header-wrapper">
+                <img
+                  src="/src/assets/images/blog-img-2.png"
+                  alt="couple of man and woman"
+                />
+              </figure>
+              <div class="blog__body-wrapper">
+                <div class="blog__date">
+                  <img src="/src/assets/icons/time-icon.svg" alt="" />
+                  <span>23.06.2024.</span>
+                </div>
+                <div class="blog__body-text">
+                  <h3 class="blog__heading">Heading</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi animi nostrum ut corrupti praesentium dicta veritatis
+                    ab quod maiores, repellendus rerum unde, vel perspiciatis
+                    harum.
+                  </p>
+                </div>
+                <a href="#">Read more...</a>
+              </div>
+            </article>
+            <article class="blog__card">
+              <figure class="blog__header-wrapper">
+                <img
+                  src="/src/assets/images/blog-img-3.png"
+                  alt="couple of man and woman"
+                />
+              </figure>
+              <div class="blog__body-wrapper">
+                <div class="blog__date">
+                  <img src="/src/assets/icons/time-icon.svg" alt="" />
+                  <span>23.06.2024.</span>
+                </div>
+                <div class="blog__body-text">
+                  <h3 class="blog__heading">Heading</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Nisi animi nostrum ut corrupti praesentium dicta veritatis
+                    ab quod maiores, repellendus rerum unde, vel perspiciatis
+                    harum.
+                  </p>
+                </div>
+                <a href="#">Read more...</a>
+              </div>
+            </article>
+          </div>
+          <button class="blog__read-more-btn">
+            Pogledaj ostale blog članke
+          </button>
+        </div>
+      </section>
+      <!-- SOCIAL PROOF SLIDER SECTION -->
+      <section class="social-proof">
+        <div class="container">
+          <h2 class="h2-heading">Iskustva korisnika</h2>
+          <div class="swiper mySwiper">
+            <div class="social-proof__wrapper swiper-wrapper">
+              <article class="social-proof__card swiper-slide">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Turpis at et blandit
+                  vitae nec eu. Scelerisque sit parturient eu duis proin donec
+                  tempus quis mi.
+                </p>
+                <h3>John Doe</h3>
+              </article>
+              <article class="social-proof__card swiper-slide">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dignissimos eius beatae, nobis autem laboriosam similique quam
+                  dolore reiciendis, quas dicta deserunt dolor magnam ea
+                  numquam. Ipsa, pariatur? Voluptates, sequi repellat!
+                </p>
+                <h3>John Smith</h3>
+              </article>
+              <article class="social-proof__card swiper-slide">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorem, dicta.
+                </p>
+                <h3>John Smith</h3>
+              </article>
+              <article class="social-proof__card swiper-slide">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolorem, dicta.
+                </p>
+                <h3>John Smith</h3>
+              </article>
+              <article class="social-proof__card swiper-slide">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dignissimos eius beatae, nobis autem laboriosam similique quam
+                  dolore reiciendis, quas dicta deserunt dolor magnam ea
+                  numquam. Ipsa, pariatur? Voluptates, sequi repellat!
+                </p>
+                <h3>John Smith</h3>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SEO SECTION -->
+      <section class="seo">
+        <div class="container">
+          <div class="seo__wrapper">
+            <article class="seo-block">
+              <h2 class="seo-heading">Sajt za upoznavanje Lepotica i Zver</h2>
+              <div class="seo-block__inner-wrapper">
+                <p>
+                  Lepotica i Zver je ekskluzivan sajt za upoznavanje preko
+                  interneta  koji je nastao 2017. godine sa namerom da pomeri
+                  granice, izgradi poverenje i učini online upoznavanje
+                  sigurnijim i jednostavnijim. Naša misija je da na sajtu ljudi
+                  provode što je manje vremena i što je više moguće, u stvarnom
+                  životu. Mi znamo da su lični kontakti mnogo važniji od
+                  virtualnih. Namenjen je svima koji žele da ostvare pristojnu
+                  komunikaciju i poznanstva sa ciljem veze, koja se jednog dana
+                  može pretvoriti i u nešto više, kao što je to brak i
+                  zajednica. Lepotica i Zver priča je poznata i kao bajka, a mi
+                  verujemo da ljudi koji imaju jasne ciljeve u životu, mogu od
+                  svog života napraviti bajku.
+                </p>
+                <br /><br />
+                <p>
+                  Na ovom sajtu je potpuno besplatna registracija za sve
+                  korisnike. Za dame je 100% besplatan za korišćenje dok
+                  muškarci koji žele i mogućnost za dopisivanje i razmenu
+                  poruka, mogu da postanu VIP korisnici kupovinom VIP ZVER
+                  članarine. Na ovaj način između ostalog, mi filtriramo
+                  ozbiljne od onih malo manje ozbiljnih muškaraca, koje stvarno
+                  interesuje upoznavanje žena, kako online, tako i u stvarnom
+                  životu. Takođe, mi verujemo da pravi džentlmeni ne bi
+                  dozvolili jednoj dami da plati članarinu.
+                </p>
+                <br /><br />
+                <p>
+                  Lepotica i Zver ima mnogo registracija otkako postoji, ali
+                  proveru i verifikaciju profila koja se radi ručno, ne prolaze
+                  svi jer kod nas postoje određeni ali jednostavni kriterijumi
+                  za pristup. Na ovaj način, mi podižemo kvalitet i zbog toga je
+                  Lepotica i Zver klub za odrasle i ljude svesne sebe i svojih
+                  mogućnosti, koji znaju šta traže i šta mogu da ponude. Na ovaj
+                  način smanjujemo šansu za zloupotrebu sajta, lažne profile i
+                  oduzimanje vremena drugim korisnicima.
+                </p>
+                <p>
+                  Članovi Lepotica i Zver sajta za online upoznavanje su iz
+                  raznih država kao što su to Srbija, Hrvatska, Bosna i
+                  Hercegovina, Crna Gora, Slovenija, Severna Makedonija.
+                  Naravno, tu je i dijaspora i države kao što su Amerika,
+                  Nemačka, Austrija, Australija, Skandinavija, itd.
+                </p>
+                <br /><br /><br />
+                <h3 class="seo-subheading">
+                  Lepotica i Zver aplikacija za upoznavanje
+                </h3>
+                <p>
+                  Od skoro, Lepotica i Zver nudi mogućnost preuzimanja i
+                  instaliranja aplikacije za upoznavanje na Vaš mobilni uređaj.
+                  Trenutno je podržana samo Android verzija aplikacije, ali
+                  radimo na tome da ponudimo našim korisnicima aplikaciju za iOS
+                  odnosno iPhone uređaje.
+                </p>
+                <br /><br /><br />
+                <h3 class="seo-subheading">
+                  Sajtovi za upoznavanje su sadašnjost i budućnost
+                </h3>
+                <p>
+                  Sajtovi za upoznavanje postali su nezaobilazna sadašnjost i
+                  obećavajuća budućnost, kad je u pitanju upoznavanje žena i
+                  muškaraca. U današnjem digitalnom dobu kada svi imaju
+                  aplikacije za sve, mnogi parovi su pronašli i pronalaze svoje
+                  srodne duše upravo putem ovih platformi.
+                </p>
+                <br /><br />
+                <p>
+                  Sajtovi za upoznavanje nude širok spektar prednosti,
+                  omogućavajući korisnicima da prilagode svoje pretrage prema
+                  ličnim zahtevima i interesovanjima. Jednostavno, efikasno i
+                  diskretno, sajtovi za upoznavanje stvaraju prostor gde se
+                  rađaju nove ljubavne veze. Neka vaša ljubavna priča započne na
+                  sajtovima ove vrste, gde se spajaju 2 srca i sastaju srodne
+                  duše i gde se danas pišu priče ljubavi koje će trajati u
+                  budućnosti!
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <!-- REGISTRATION SECTION -->
+      <section class="registration">
+        <div class="registration__row">
+          <p>
+            Registruje se odmah potpuno besplatno na Lepotica i Zver sajtu za
+            upoznavanje!
+          </p>
+          <button class="registration-section-btn">Registruj se</button>
+        </div>
+      </section>
+      <!-- FAQ SECTION -->
+      <section class="faq">
+        <div class="container">
+          <h2 class="h2-heading">FAQ - Često postavljena pitanja</h2>
+          <div class="faq__wrapper">
+            <article class="faq-accordion">
+              <div class="accordion" id="accordion-btn">
+                <h3 class="accordion-heading">
+                  Kako da kreiram profil na Lepotica i Zver sajtu za
+                  upoznavanje?
+                </h3>
+                <button class="accordion-btn">
+                  <img
+                    src="/src/assets/icons/plus-icon.svg"
+                    alt="accordion plus icon"
+                    id="accordion-icon"
+                  />
+                </button>
+              </div>
+              <div class="accordion-content" data-active="false">
+                <p>
+                  Da biste kreirali profil na Lepotica i Zver platformi za
+                  upoznavanje, potrebno je da kliknite na
+                  &quot;Registracija&quot;. Tu je potrebno da popunite potrebne
+                  informacije kao što su Vaše ime, email adresa (obratite pažnju
+                  da je ispravna) i željena lozinka.
+                </p>
+                <p>
+                  Nakon toga, sledite uputstva za popunjavanje profila,
+                  uključujući dodavanje profilne fotografije kao i one za
+                  verifikaciju i informacije o sebi. Molimo Vas, imajte na umu
+                  da svaki profil prolazi ručnu kontrolu pre nego što se dobije
+                  pristup sajtu.
+                </p>
+              </div>
+            </article>
+            <article class="faq-accordion">
+              <div class="accordion" id="accordion-btn">
+                <h3 class="accordion-heading">
+                  Kako funkcioniše verifikacija profila na Lepotica i Zver?
+                </h3>
+                <button class="accordion-btn">
+                  <img
+                    src="/src/assets/icons/plus-icon.svg"
+                    alt="accordion plus icon"
+                    id="accordion-icon"
+                  />
+                </button>
+              </div>
+              <div class="accordion-content" data-active="false">
+                <p>
+                  Za verifikaciju profila na našem sajtu, svaki član je u
+                  obavezi da postavi fotografiju na kojoj drži papirić sa
+                  napisanim imenom sajta &quot;Lepotica i Zver&quot;. Ovaj korak
+                  nam omogućava da potvrdimo autentičnost profila i uskladimo je
+                  sa ostalim postavljenim fotografijama.
+                </p>
+                <p>
+                  Proces verifikacije pomaže u održavanju sigurnog i pouzdanog
+                  okruženja za sve naše članove. Nakon što ste popunili Vaš
+                  profil u potpunosti i postavite svoju fotografiju za
+                  verifikaciju, naš tim će je pregledati i odobriti u najkraćem
+                  mogućem roku.
+                </p>
+                <p>
+                  Naš sajt nema toleranciju prema lažnim profilima i ljudima
+                  koji se kriju iza istih.
+                </p>
+              </div>
+            </article>
+            <article class="faq-accordion">
+              <div class="accordion" id="accordion-btn">
+                <h3 class="accordion-heading">
+                  Da li je Lepotica i Zver siguran i bezbedan za korišćenje?
+                  Koje mere sigurnosti su na mestu?
+                </h3>
+                <button class="accordion-btn">
+                  <img
+                    src="/src/assets/icons/plus-icon.svg"
+                    alt="accordion plus icon"
+                    id="accordion-icon"
+                  />
+                </button>
+              </div>
+              <div class="accordion-content" data-active="false">
+                <p>
+                  Lepotica i Zver koristi napredne tehnologije za zaštitu vaših
+                  podataka i privatnosti. Imamo stroge mere sigurnosti i
+                  verifikacije kako bismo osigurali sigurno okruženje za sve
+                  korisnike. Takođe, savetujemo korisnike da ne dele lične
+                  informacije pre nego što steknu poverenje u osobu s kojom
+                  komuniciraju.
+                </p>
+              </div>
+            </article>
+            <article class="faq-accordion">
+              <div class="accordion" id="accordion-btn">
+                <h3 class="accordion-heading">
+                  Da li je Lepotica i zver besplatan sajt za upoznavanje?
+                </h3>
+                <button class="accordion-btn">
+                  <img
+                    src="/src/assets/icons/plus-icon.svg"
+                    alt="accordion plus icon"
+                    id="accordion-icon"
+                  />
+                </button>
+              </div>
+              <div class="accordion-content" data-active="false">
+                <p>
+                  Osnovno članstvo za Zverke na Lepotica i Zver je besplatno i
+                  omogućava vam kreiranje profila, pretrage korisnika i
+                  korišćenja nekih drugih funckija.
+                </p>
+              </div>
+            </article>
+            <article class="faq-accordion">
+              <div class="accordion" id="accordion-btn">
+                <h3 class="accordion-heading">
+                  Za Lepotice, sajt je u potpunosti besplatan.
+                </h3>
+                <button class="accordion-btn">
+                  <img
+                    src="/src/assets/icons/plus-icon.svg"
+                    alt="accordion plus icon"
+                    id="accordion-icon"
+                  />
+                </button>
+              </div>
+              <div class="accordion-content" data-active="false">
+                <p>
+                  Za Zverke, kako bi pristupili porukama i imali mogućnost da
+                  čitaju i šalju poruke, potrebno je postati VIP Zver član.
+                </p>
+              </div>
+            </article>
+            <article class="faq-accordion">
+              <div class="accordion" id="accordion-btn">
+                <h3 class="accordion-heading">
+                  Da li sajt za upoznavanje Lepotica i Zver koristi neki
+                  algoritam?
+                </h3>
+                <button class="accordion-btn">
+                  <img
+                    src="/src/assets/icons/plus-icon.svg"
+                    alt="accordion plus icon"
+                    id="accordion-icon"
+                  />
+                </button>
+              </div>
+              <div class="accordion-content" data-active="false">
+                <p>
+                  Ne, naš sajt ne koristi nijedan algoritam za spajanje ljudi.
+                  Iako Vam to možda zvuči čudno u današnjem svetu tehnologije i
+                  veštačke inteligencije, mi i dalje verujemo da ništa ne može
+                  da zameni ljudsku inteligenciju a još manje, emotivnu
+                  inteligenciju.
+                </p>
+              </div>
+            </article>
+            <article class="faq-accordion">
+              <div class="accordion" id="accordion-btn">
+                <h3 class="accordion-heading">
+                  Kako mogu da prijavim korisnika ili sumnjivu aktivnost?
+                </h3>
+                <button class="accordion-btn">
+                  <img
+                    src="/src/assets/icons/plus-icon.svg"
+                    alt="accordion plus icon"
+                    id="accordion-icon"
+                  />
+                </button>
+              </div>
+              <div class="accordion-content" data-active="false">
+                <p>
+                  Ako naiđete na bilo kakvu sumnjivu aktivnost ili korisnika
+                  koji krši naša pravila i uslove, možete ga prijaviti klikom na
+                  opciju &quot;Prijavi&quot; na njihovom profilu ili nas
+                  kontaktirati direktno putem emaila za podršku.
+                </p>
+                <p>
+                  Hvala Vaš što nam pomažete da održimo Lepotica i Zver sajt
+                  sigurnim i bezbednim mesto za upoznavanje.
+                </p>
+              </div>
+            </article>
+            <article class="faq-accordion">
+              <div class="accordion" id="accordion-btn">
+                <h3 class="accordion-heading">
+                  Šta da radim ako zaboravim lozinku?
+                </h3>
+                <button class="accordion-btn">
+                  <img
+                    src="/src/assets/icons/plus-icon.svg"
+                    alt="accordion plus icon"
+                    id="accordion-icon"
+                  />
+                </button>
+              </div>
+              <div class="accordion-content" data-active="false">
+                <p>
+                  Ako zaboravite lozinku, kliknite na &quot;Zaboravljena
+                  lozinka&quot; na stranici za prijavu. Unesite svoju email
+                  adresu, i poslaćemo vam uputstva za resetovanje lozinke.
+                </p>
+              </div>
+            </article>
+            <article class="faq-accordion">
+              <div class="accordion" id="accordion-btn">
+                <h3 class="accordion-heading">
+                  Kako mogu da promenim informacije na svom profilu ili profilnu
+                  sliku?
+                </h3>
+                <button class="accordion-btn">
+                  <img
+                    src="/src/assets/icons/plus-icon.svg"
+                    alt="accordion plus icon"
+                    id="accordion-icon"
+                  />
+                </button>
+              </div>
+              <div class="accordion-content" data-active="false">
+                <p>
+                  Da biste promenili profilnu sliku ili informacije na profilu,
+                  idite na svoj profil i kliknite na &quot;Uredi profil&quot;.
+                  Odatle možete ažurirati svoje informacije i dodati nove slike.
+                </p>
+                <p>
+                  Imajte na umu da, zbog sigurnosnih razloga, muškarci mogu da
+                  promene detalje na svom profilu kad postanu VIP korisnici.
+                </p>
+              </div>
+            </article>
+            <article class="faq-accordion">
+              <div class="accordion" id="accordion-btn">
+                <h3 class="accordion-heading">
+                  Koja su pravila za slanje poruka i interakciju sa drugima na
+                  Lepotica i Zver?
+                </h3>
+                <button class="accordion-btn">
+                  <img
+                    src="/src/assets/icons/plus-icon.svg"
+                    alt="accordion plus icon"
+                    id="accordion-icon"
+                  />
+                </button>
+              </div>
+              <div class="accordion-content" data-active="false">
+                <p>
+                  Budite ljubazni i poštujte druge korisnike. Zabranjeno je
+                  slanje uvredljivih poruka, pretnji ili bilo kakvog sadržaja
+                  koji krši naša pravila ponašanja. Promovišemo pozitivnu i
+                  sigurnu sredinu za sve članove.
+                </p>
+                <p>
+                  Korisnici koji krše pravila i uznemiravaju druge korisnike,
+                  biće blokirani i neće im biti omogućeno ponovno registrovanje.
+                </p>
+              </div>
+            </article>
+            <article class="faq-accordion">
+              <div class="accordion" id="accordion-btn">
+                <h3 class="accordion-heading">
+                  Kako da blokiram ili odblokiram drugog korisnika?
+                </h3>
+                <button class="accordion-btn">
+                  <img
+                    src="/src/assets/icons/plus-icon.svg"
+                    alt="accordion plus icon"
+                    id="accordion-icon"
+                  />
+                </button>
+              </div>
+              <div class="accordion-content" data-active="false">
+                <p>
+                  Da biste blokirali korisnika, posetite njegov profil i
+                  kliknite na &quot;Blokiraj&quot;. Ako želite da odblokirate
+                  korisnika, idite na podešavanja svog naloga i pronađite listu
+                  blokiranih korisnika.
+                </p>
+              </div>
+            </article>
+            <article class="faq-accordion">
+              <div class="accordion" id="accordion-btn">
+                <h3 class="accordion-heading">
+                  Da li mogu da vidim ko je pregledao moj profil?
+                </h3>
+                <button class="accordion-btn">
+                  <img
+                    src="/src/assets/icons/plus-icon.svg"
+                    alt="accordion plus icon"
+                    id="accordion-icon"
+                  />
+                </button>
+              </div>
+              <div class="accordion-content" data-active="false">
+                <p>
+                  Da, možete videti ko je pregledao vaš profil. Ova funkcija
+                  pomaže u identifikaciji korisnika koji su zainteresovani za
+                  vas.
+                </p>
+              </div>
+            </article>
+            <article class="faq-accordion">
+              <div class="accordion" id="accordion-btn">
+                <h3 class="accordion-heading">
+                  Kako da deaktiviram ili obrišem svoj Lepotica i Zver nalog?
+                </h3>
+                <button class="accordion-btn">
+                  <img
+                    src="/src/assets/icons/plus-icon.svg"
+                    alt="accordion plus icon"
+                    id="accordion-icon"
+                  />
+                </button>
+              </div>
+              <div class="accordion-content" data-active="false">
+                <p>
+                  Da biste deaktivirali ili obrisali svoj nalog, potrebno je da
+                  pošaljete email sa zahtevom za deaktiviranje profila.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

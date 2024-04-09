@@ -1,0 +1,22 @@
+.blog {
+  background: linear-gradient(140deg, hsl(0, 0%, 91%), hsl(60, 4%, 95%));
+  color: var(--dark-font);
+  padding-block: 6rem;
+}
+.blog h2::after {
+  background-color: var(--dark-font);
+}
+.blog__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.blog__wrapper > * {
+  flex: 1;
+}
+@media (min-width: 1024px) {
+  .blog__wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}

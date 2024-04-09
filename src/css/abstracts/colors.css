@@ -1,0 +1,8 @@
+:root {
+  --black: #000;
+  --white: #fff;
+  --green: hsl(111, 69%, 39%);
+  --dark-font: hsl(213, 11%, 19%);
+  --grey: hsl(0, 0%, 18%);
+  --link: hsl(225, 90%, 55%);
+}
