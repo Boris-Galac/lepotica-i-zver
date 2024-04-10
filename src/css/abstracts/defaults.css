@@ -9,6 +9,7 @@ html,
 body {
   min-height: 100%;
   scroll-behavior: smooth;
+  background-color: rgb(59, 59, 59);
 }
 img,
 picture,
