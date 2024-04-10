@@ -60,3 +60,39 @@ ham.addEventListener("click", (e) => {
     nav.setAttribute("aria-expanded", "false");
   }
 });
+
+// HEADER HIDE ON SCROLL
+
+////////// HEADER ON SCROLL
+
+const isScrolling = () => {
+  const headerElement = document.querySelector(".header");
+  let windowPosition = window.scrollY > 150;
+  headerElement.classList.toggle("active", windowPosition);
+};
+
+window.addEventListener("scroll", isScrolling);
+
+/////////// HIDE HEADER ON SCROLL
+
+let lastScrollTop = 0;
+let navbar = document.querySelector(".header");
+let navbarHeight = document.querySelector(".header").scrollHeight;
+window.addEventListener("scroll", (e) => {
+  if (window.scrollY > 100) {
+    navbar.style = `
+      background-color: var(--black);
+    `;
+  } else {
+    navbar.style = `
+    background-color: none;
+  `;
+  }
+  let scrollTop = window.scrollY || document.documentElement.scrollTop;
+  if (scrollTop > lastScrollTop) {
+    navbar.style.top = `-${navbarHeight}px`;
+  } else {
+    navbar.style.top = "0";
+  }
+  lastScrollTop = scrollTop;
+});

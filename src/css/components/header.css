@@ -6,15 +6,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-block: 1rem;
   padding-inline: 0.5rem;
-  backdrop-filter: blur(10px);
+  transition: 0.5s;
 }
 .header-col {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   align-items: center;
+  padding-block: 2rem;
 }
 .header-btn-app {
   display: flex;
@@ -44,7 +44,7 @@
   inset: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.759);
+  background-color: rgba(0, 0, 0, 0.85);
   display: grid;
   place-content: center;
 }
@@ -124,7 +124,12 @@
 .nav__link:hover {
   opacity: 0.7;
 }
-
+.login__wrapper--desktop {
+  display: none;
+}
+.login-btn--mobile {
+  display: grid;
+}
 @media (min-width: 1200px) {
   .header {
     padding-inline: 2rem;
@@ -172,5 +177,11 @@
   }
   .login-btn {
     margin-block: 0;
+  }
+  .login__wrapper--desktop {
+    display: grid;
+  }
+  .login-btn--mobile {
+    display: none !important;
   }
 }
